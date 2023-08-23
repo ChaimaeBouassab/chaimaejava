@@ -6,7 +6,7 @@ import Description from './description';
 import Image from './image';
 import { Card } from 'react-bootstrap';
 
-const firstName = 'YourFirstName'; // Replace with your first name
+const firstName = 'Chaimae'; // Replace with your first name
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         </Card.Body>
       </Card>
       <p>Hello, {firstName ? firstName : 'there'}!</p>
-      {firstName && <Image imageUrl={product.imageUrl} />}
+      {firstName && <Image imageUrl={product.imageUrl2} />}
     </div>
   );
 }

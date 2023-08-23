@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* styles.css */
+.product-image{
+  max-width: 100%; /* La largeur de l'image ne dépassera pas la largeur du conteneur */
+  height: auto;    /* La hauteur sera automatiquement ajustée pour conserver les proportions de l'image */
+}
